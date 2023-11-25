@@ -218,7 +218,7 @@ user_testimonials = [
     {
         "name": "Fouad Zablith",
         "date": "2023-07-18",
-        "image": "C:/path_to_alex_image.jpg" ,
+        "image": "Dr Fouad Zablith.jpeg" ,
         "testimonial": (
             "The blend of expert nutrition advice and practical, tasty recipes has made a significant impact "
             "on my lifestyle. I appreciate the personalized approach and the supportive community."
