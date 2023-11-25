@@ -168,7 +168,7 @@ nutritionists = {
     "Manouella Helou, CN": {
         "specialization": "Pediatric Nutrition",
         "contact": "ManouellaHelou@nutriswap.com",
-        "image": "C:/path_to_alex_image.jpg",
+        "image": "Manouella.jpg",
         "availability": ["Wednesday - 10am to 4pm", "Friday - 1pm to 7pm"],
         "bio": "Manouella is a certified nutritionist with expertise in children's nutrition."
     }
