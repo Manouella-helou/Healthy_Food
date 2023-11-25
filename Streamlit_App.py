@@ -195,7 +195,7 @@ user_testimonials = [
             "I've learned so much about nutrition and healthy eating habits. Highly recommend!"
         ),
     },{
-        "name": "Fadia Shereka",
+        "name": "Pipo",
         "date": "2023-08-01",
         "image": "C:/Users/Chekri/Desktop/Streamlit_App_images/chekri.jpg" ,
         "testimonial": (
