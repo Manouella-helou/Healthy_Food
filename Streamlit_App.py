@@ -288,7 +288,7 @@ def main():
 
     if option == "Home":
         if option == "Home":
-            image_path = r"C:\Users\USER\Desktop\chekri.jpg"
+            image_path = chekri.jpg
             if os.path.isfile(image_path):
                     st.image(image_path, use_column_width=True)
             else:
