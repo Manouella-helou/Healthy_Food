@@ -179,7 +179,7 @@ user_testimonials = [
     {
         "name": "Adam Salha",
         "date": "2023-07-15",
-        "image": "C:/path_to_alex_image.jpg" ,
+        "image": "adam.jpg" ,
         "testimonial": (
             "Joining NutriSwap Kitchen was a game-changer for me! The personalized diet plans and "
             "consultations with the nutritionists have helped me tremendously in achieving my health goals. "
