@@ -290,7 +290,7 @@ def main():
         if option == "Home":
             image_path = "Nutriswap logo.jpg"
             if os.path.isfile(image_path):
-                    st.image(image_path, width=400)
+                    st.image(image_path, width=300)
             else:
                 st.error(f"Failed to find image at {image_path}")
             st.subheader("Discover a Healthier You with NutriSwap Kitchen")
