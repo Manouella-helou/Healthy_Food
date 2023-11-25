@@ -261,19 +261,23 @@ providers = [
     # Add more providers as needed
 ]
 
-def display_providers(providers):
+def display_providers_as_table(providers):
     st.subheader("Connect with Healthy Food Providers")
+    
+    # Convert provider data to a list of dictionaries for each row
+    data = []
     for provider in providers:
-        with st.container():
-            col1, col2, col3 = st.columns(3)
-            with col1:
-                st.write(provider["name"])
-            with col2:
-                st.write(provider["location"])
-            with col3:
-                for phone in provider["phone"]:
-                    st.write(f"📞 {phone}")
-            st.write(f"[Website]({provider['website']})" if provider["website"] else "Website not available")
+        provider_data = {
+            "Provider Name": provider["name"],
+            "Location": provider["location"],
+            "Phone Number": ', '.join(provider["phone"]),
+            "Website": provider["website"] or "Not Available"
+        }
+        data.append(provider_data)
+    
+    # Create a DataFrame and display it as a table
+    df = pd.DataFrame(data)
+    st.table(df)
 
 # Main App Function
 def main():
@@ -389,7 +393,7 @@ def main():
                 if st.button(f"Book an appointment with {name.split(',')[0]}", key=f"btn_{unique_key}"):
                     st.success(f"Appointment booked with {name} on {appointment_date.strftime('%Y-%m-%d')}")
     elif option == "Healthy Food Provider":
-        display_providers(providers)
+        display_providers_as_table(providers)
 
 
     elif option == "User Testimonials":
