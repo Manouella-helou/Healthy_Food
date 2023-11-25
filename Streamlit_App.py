@@ -371,10 +371,6 @@ def main():
         ## 🏋️‍♂️ Fitness Corner
         **Exercise Tip of the Day:**
         - A brisk 30-minute walk each day can significantly improve cardiovascular health and help in maintaining a healthy weight.
-
-        ## 🥑 Healthy Recipe Idea
-        **Today's Recipe: Avocado and Chickpea Salad**
-        - A quick, nutritious salad packed with healthy fats, protein, and fiber. Ideal for a refreshing lunch!
         
         ## 🧘‍♀️ Wellness and Mindfulness
         - **Mindfulness Meditation:** Taking 10 minutes each day to meditate can reduce stress, improve focus, and promote a sense of calm.
