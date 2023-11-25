@@ -278,7 +278,7 @@ def display_providers(providers):
 # Main App Function
 def main():
     st.title('NutriSwap Kitchen')
-    st.sidebar.image("Nutriswap logo.jpg", width=300)
+    st.sidebar.image("Nutriswap logo.jpg", width=150)
     st.sidebar.title("Features")
   
     option = st.sidebar.radio("Choose a feature", 
