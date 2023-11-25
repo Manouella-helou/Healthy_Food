@@ -271,7 +271,7 @@ def display_providers_as_table(providers):
             "Provider Name": provider["name"],
             "Location": provider["location"],
             "Phone Number": ', '.join(provider["phone"]),
-            "Website": provider["website"] or "Not Available"
+            "Website": provider["website"] if provider["website"] else "Not Available"
         }
         data.append(provider_data)
     
