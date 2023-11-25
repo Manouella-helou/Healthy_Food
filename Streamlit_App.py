@@ -161,7 +161,7 @@ nutritionists = {
     "Charbel Daou, RD": {
         "specialization": "Clinical Dietetics",
         "contact": "CharbelDaou@nutriswap.com",
-        "image": "C:/path_to_alex_image.jpg",
+        "image": "Charbel.jpg",
         "availability": ["Tuesday - 9am to 3pm", "Thursday - 11am to 5pm"],
         "bio": "Charbel is a registered dietitian focusing on weight management and diabetes care."
     },
@@ -189,7 +189,7 @@ user_testimonials = [
     {
         "name": "Houssam Chbichib",
         "date": "2023-06-10",
-        "image": "C:/path_to_alex_image.jpg" ,
+        "image": "Houssam.jpg" ,
         "testimonial": (
             "The educational content and healthy recipes transformed the way I think about food. "
             "I've learned so much about nutrition and healthy eating habits. Highly recommend!"
