@@ -288,7 +288,7 @@ def main():
 
     if option == "Home":
         if option == "Home":
-            image_path = "Logo_NutriSwap.jpg"
+            image_path = "Nutriswap logo.jpg"
             if os.path.isfile(image_path):
                     st.image(image_path, use_column_width=True)
             else:
