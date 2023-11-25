@@ -197,7 +197,7 @@ user_testimonials = [
     },{
         "name": "Pipo",
         "date": "2023-08-01",
-        "image": "C:/Users/Chekri/Desktop/Streamlit_App_images/chekri.jpg" ,
+        "image": "Pipo.jpg" ,
         "testimonial": (
             "NutriSwap Kitchen has completely altered my approach to eating and wellness. The insightful "
             "advice from my nutritionist and the wealth of educational resources available have been invaluable. "
