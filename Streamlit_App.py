@@ -154,7 +154,7 @@ nutritionists = {
     "Dr. Chekri Khalife": {
         "specialization": "Sports Nutrition",
         "contact": "ChekriKhalife@nutriswap.com",
-        "image": "C:/path_to_alex_image.jpg",
+        "image": "chekri.jpg",
         "availability": ["Monday - 10am to 4pm", "Wednesday - 12pm to 6pm"],
         "bio": "Dr. Chekri specializes in sports nutrition and diet planning for athletes."
     },
