@@ -394,10 +394,6 @@ def main():
 
     elif option == "User Testimonials":
         st.subheader("User Testimonials and Success Stories")
-
-        # Add a banner or image at the top of the testimonials section
-        st.image("C:/Users/Chekri/Desktop/Streamlit App images/Logo.png", use_column_width=True)  # Replace with the path to your image
-
         sort_order = st.selectbox("Sort testimonials by:", ["Most Recent", "Oldest First"])
         sorted_testimonials = sort_testimonials(user_testimonials, sort_order)
 
