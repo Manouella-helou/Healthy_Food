@@ -262,24 +262,35 @@ providers = [
     # Add more providers as needed
 ]
 
-def display_providers_as_table(providers):
-    st.subheader("Connect with Healthy Food Providers")
-    
-    # Convert provider data to a list of dictionaries for each row
-    data = []
-    for provider in providers:
-        provider_data = {
-            "Provider Name": provider["name"],
-            "Location": provider["location"],
-            "Phone Number": ', '.join(provider["phone"]),
-            "Website": provider["website"] if provider["website"] else "Not Available"
-        }
-        data.append(provider_data)
-    
-    # Create a DataFrame and display it as a table
-    df = pd.DataFrame(data)
-    st.table(df)
+# Custom CSS to inject contained in a string
+custom_css = """
+    <style>
+        .provider-name { font-weight: bold; color: #4A90E2; }
+        .provider-location { color: #7F8C8D; font-style: italic; }
+        .provider-phone { color: #16A085; }
+        .provider-website { color: #27AE60; }
+        .table { margin-top: 1em; }
+        .stTable { overflow-x: scroll; }
+    </style>
+"""
 
+# Function to display providers as a table with styling
+def display_providers_as_table(providers):
+    st.markdown(custom_css, unsafe_allow_html=True)  # Apply the custom styles
+    
+    st.subheader("🥗 Connect with Healthy Food Providers")
+    
+    # Display providers using columns and custom styling
+    for provider in providers:
+        cols = st.columns([2, 2, 2, 3])
+        cols[0].markdown(f"<p class='provider-name'>{provider['name']}</p>", unsafe_allow_html=True)
+        cols[1].markdown(f"<p class='provider-location'>{provider['location']}</p>", unsafe_allow_html=True)
+        cols[2].markdown(f"<p class='provider-phone'>📞 {', '.join(provider['phone'])}</p>", unsafe_allow_html=True)
+        if provider['website']:
+            cols[3].markdown(f"<a class='provider-website' href='{provider['website']}' target='_blank'>Website</a>", unsafe_allow_html=True)
+        else:
+            cols[3].markdown(f"<p class='provider-website'>Not Available</p>", unsafe_allow_html=True)
+        st.markdown("---")  # Horizontal line to separate providers
 # Main App Function
 def main():
     st.title('NutriSwap Kitchen')
