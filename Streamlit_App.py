@@ -280,6 +280,7 @@ def main():
     st.title('NutriSwap Kitchen')
 
     st.sidebar.title("Features")
+    st.image("Nutriswap logo.jpg", width=300)
     option = st.sidebar.radio("Choose a feature", 
                               ["Home", "BMI Calculator", "Eat Healthy", "Educational Content", 
                                "Connect with a Nutritionist", "Healthy Food Provider", 
