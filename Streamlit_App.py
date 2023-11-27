@@ -209,7 +209,7 @@ user_testimonials = [
     {
         "name": "Tarek Nassar",
         "date": "2023-07-25",
-        "image": "Ayoub.jpg" ,
+        "image": "Tarek.jpg" ,
         "testimonial": (
             "As someone who struggled with dietary choices, the guidance I received from NutriSwap Kitchen "
             "was transformative. The recipes are not only healthy but also incredibly delicious, making healthy eating a joy."
@@ -219,7 +219,7 @@ user_testimonials = [
     {
         "name": "Dany Nassif",
         "date": "2023-07-18",
-        "image": "Dr Fouad zablith.jpeg" ,
+        "image": "dany.jpg" ,
         "testimonial": (
             "The blend of expert nutrition advice and practical, tasty recipes has made a significant impact "
             "on my lifestyle. I appreciate the personalized approach and the supportive community."
