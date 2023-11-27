@@ -219,7 +219,7 @@ user_testimonials = [
     {
         "name": "Dany Nassif",
         "date": "2023-07-18",
-        "image": "dany.jpg" ,
+        "image": "Dany.jpg" ,
         "testimonial": (
             "The blend of expert nutrition advice and practical, tasty recipes has made a significant impact "
             "on my lifestyle. I appreciate the personalized approach and the supportive community."
