@@ -207,7 +207,7 @@ user_testimonials = [
        
     },
     {
-        "name": "Mohamad Ayoub",
+        "name": "Tarek Nassar",
         "date": "2023-07-25",
         "image": "Ayoub.jpg" ,
         "testimonial": (
@@ -217,7 +217,7 @@ user_testimonials = [
         
     },
     {
-        "name": "Fouad Zablith",
+        "name": "Dany Nassif",
         "date": "2023-07-18",
         "image": "Dr Fouad zablith.jpeg" ,
         "testimonial": (
